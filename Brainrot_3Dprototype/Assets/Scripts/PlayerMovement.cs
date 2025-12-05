@@ -100,7 +100,7 @@ public class PlayerMovement : MonoBehaviour
         if (flatVel.magnitude > moveSpeed) //If the player is moving faster than the assigned movement speed
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed; //This calculates what the players max speed would be
-            rb.linearVelocity = new Vector3(limitedVel.x, rb.linearVelocity.y, limitedVel.z); //Applies said max speed here
+            rb.linearVelocity = new Vector3(limitedVel.x, rb.linearVelocity.y, limitedVel.z); //Applies the above max speed here
         }
     }
 
