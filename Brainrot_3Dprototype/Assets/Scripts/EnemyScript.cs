@@ -1,0 +1,17 @@
+using UnityEngine;
+
+public class EnemyScript : MonoBehaviour
+{
+    private Transform cameraTransform; //Stores the reference to the camera I want the enemy to always be facing
+
+    private void Start()
+    {
+        cameraTransform = Camera.main.transform;
+    }
+
+    private void Update()
+    {
+        transform.LookAt(cameraTransform); //Makes the game object look towards the camera
+        transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0); //Only allows the object to rotate on the Y-axis
+    }
+}
