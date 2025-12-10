@@ -1,8 +1,13 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyScript : MonoBehaviour
 {
     private Transform cameraTransform; //Stores the reference to the camera I want the enemy to always be facing
+
+    public float health;
+
+   
 
     private void Start()
     {
