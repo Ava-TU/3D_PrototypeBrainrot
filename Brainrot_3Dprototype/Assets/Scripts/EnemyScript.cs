@@ -7,7 +7,6 @@ public class EnemyScript : MonoBehaviour
 
     public float health;
 
-   
 
     private void Start()
     {
@@ -19,4 +18,6 @@ public class EnemyScript : MonoBehaviour
         transform.LookAt(cameraTransform); //Makes the game object look towards the camera
         transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0); //Only allows the object to rotate on the Y-axis
     }
+
+
 }
