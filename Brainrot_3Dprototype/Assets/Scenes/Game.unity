@@ -264,7 +264,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactKey: 101
+  interactKey: 323
 --- !u!1 &281666514
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,8 +750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1331a6cd1ca942549951b437d95b2f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnEnemyScript
-  followEnemyPrefab: {fileID: 1147757104157716860, guid: ed3bb3a939843214dafc6deba3571711, type: 3}
-  spawnPosition: {x: -28.17, y: 3.45, z: 0.87}
+  prefab: {fileID: 1147757104157716860, guid: ed3bb3a939843214dafc6deba3571711, type: 3}
+  spawnPosition: {fileID: 1193386479}
 --- !u!1 &1375947124
 GameObject:
   m_ObjectHideFlags: 0
