@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
   bulletSpeed: 10
-  fireRate: 0
+  fireRate: 1
   bulletDamage: 0
   isAuto: 0
   bulletSpawnTransform: {fileID: 201052115}
