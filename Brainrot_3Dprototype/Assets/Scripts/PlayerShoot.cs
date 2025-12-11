@@ -34,5 +34,6 @@ public class PlayerShoot : MonoBehaviour
     void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnTransform.position, Quaternion.identity);
+        bullet.GetComponent<Rigidbody>().AddForce(bulletSpawnTransform.forward * bulletSpeed, ForceMode.Impulse); //The impulse force mode makes sure that the force added to the bullet is instant
     }
 }

@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 981adc44130dcd3488b27454cecb7f5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
-  bulletSpeed: 0
+  bulletSpeed: 10
   fireRate: 0
   bulletDamage: 0
   isAuto: 0
