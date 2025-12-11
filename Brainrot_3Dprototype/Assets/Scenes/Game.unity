@@ -1259,6 +1259,7 @@ MonoBehaviour:
   bulletSpawnTransform: {fileID: 201052115}
   bulletPrefab: {fileID: 3856476317094061188, guid: 37e869230287efa4a80588d78264208e, type: 3}
   shootKey: 323
+  weaponType: 113
 --- !u!1 &1877944911
 GameObject:
   m_ObjectHideFlags: 0
