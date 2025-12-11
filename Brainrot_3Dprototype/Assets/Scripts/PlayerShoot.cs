@@ -19,7 +19,7 @@ public class PlayerShoot : MonoBehaviour
     {
         if (timer > 0)
         {
-            timer -= Time.deltaTime / fireRate; //This makes it so that the player will shoot at whatever the fire rate is per second, e.g. if the fire rate is 2, then it will shoot 2 bullets per second
+            timer -= Time.deltaTime / fireRate; //This makes it so that the player will shoot at whatever the fire rate is per second, e.g. if the fire rate is 0.5, then it will shoot 2 bullets per second
         }
 
         if (isAuto)
