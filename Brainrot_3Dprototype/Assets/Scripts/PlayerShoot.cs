@@ -26,7 +26,7 @@ public class PlayerShoot : MonoBehaviour
         {
             if (Input.GetKeyDown(shootKey)) //Only happens when the key is clicked
             {
-
+                Shoot();
             }
         }
     }
