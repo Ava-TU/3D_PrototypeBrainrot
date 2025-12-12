@@ -923,7 +923,7 @@ GameObject:
   - component: {fileID: 492389226}
   - component: {fileID: 492389225}
   - component: {fileID: 492389224}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: IceRinkGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}

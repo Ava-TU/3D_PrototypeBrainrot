@@ -15,7 +15,7 @@ public class BulletScript : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<EnemyScript>() != null)
         {
