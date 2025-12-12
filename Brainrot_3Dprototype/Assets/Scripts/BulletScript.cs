@@ -5,10 +5,7 @@ public class BulletScript : MonoBehaviour
     public float damage;
     public float lifeTime = 3f;
 
-    private void Start()
-    {
-    
-    }
+    public AudioSource enemyHit;
 
     private void Update()
     {
@@ -25,6 +22,7 @@ public class BulletScript : MonoBehaviour
         if (other.GetComponent<EnemyScript>() != null)
         {
             other.GetComponent<EnemyScript>().health -= damage;
+            enemyHit.Play();
         }
         Destroy(gameObject);
     }

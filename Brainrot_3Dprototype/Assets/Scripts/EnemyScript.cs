@@ -9,6 +9,8 @@ public class EnemyScript : MonoBehaviour
 
     public ParticleSystem hit;
 
+    public AudioSource enemyHit;
+
     private void Start()
     {
         cameraTransform = Camera.main.transform;

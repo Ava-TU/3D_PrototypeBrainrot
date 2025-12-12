@@ -16,6 +16,7 @@ public class PlayerShoot : MonoBehaviour
     public KeyCode shootKey;
     public KeyCode weaponType;
 
+    public AudioSource bulletSound;
 
     private float timer;
 
@@ -43,6 +44,7 @@ public class PlayerShoot : MonoBehaviour
             if (Input.GetKey(shootKey) && timer <= 0) //Happens even when the key is held down
             {
                 Shoot();
+                bulletSound.Play();
             }
         }
         else
@@ -50,6 +52,7 @@ public class PlayerShoot : MonoBehaviour
             if (Input.GetKeyDown(shootKey) && timer <= 0) //Only happens when the key is clicked
             {
                 Shoot();
+                bulletSound.Play();
             }
         }
     }
