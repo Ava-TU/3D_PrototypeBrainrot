@@ -5,6 +5,11 @@ public class BulletScript : MonoBehaviour
     public float damage;
     public float lifeTime = 3f;
 
+    private void Start()
+    {
+    
+    }
+
     private void Update()
     {
         lifeTime -= Time.deltaTime;

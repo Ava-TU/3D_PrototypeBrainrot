@@ -7,10 +7,12 @@ public class EnemyScript : MonoBehaviour
 
     public float health;
 
+    public ParticleSystem hit;
 
     private void Start()
     {
         cameraTransform = Camera.main.transform;
+        hit = GetComponent<ParticleSystem>();
     }
 
     private void Update()
@@ -20,6 +22,7 @@ public class EnemyScript : MonoBehaviour
 
         if (health <= 0) //If the enemies health is below or equal to 0, it destroys itself.
         {
+            hit.Play();
             Destroy(gameObject);
         }
     }
