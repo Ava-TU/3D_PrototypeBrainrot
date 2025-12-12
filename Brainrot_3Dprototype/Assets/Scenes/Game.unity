@@ -923,7 +923,7 @@ GameObject:
   - component: {fileID: 492389226}
   - component: {fileID: 492389225}
   - component: {fileID: 492389224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IceRinkGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -937,7 +937,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492389223}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b78b62ec4dee109469e63b46e7ae9bd3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
